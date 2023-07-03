@@ -2,7 +2,7 @@
 Re: 제로부터 시작하는 코딩 생활
 
 ## 📁 Folder Structure
-[Programmers]/[문제 제목]/[이름]
+[BOJ]/[문제 제목]/[이름]
 
 ## 🔍 Commit Convention
 * 문제 파일 생성 시 `Create [문제 번호] [문제 제목]`
