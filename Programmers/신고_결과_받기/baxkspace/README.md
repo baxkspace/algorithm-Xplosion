@@ -1,11 +1,9 @@
 ## Info
-Programmers - 기사단원의 무기 https://school.programmers.co.kr/learn/courses/30/lessons/136798
+Programmers - 신고 결과 받기 https://school.programmers.co.kr/learn/courses/30/lessons/92334
 
 ## How to solve
-1부터 num까지 ( 1, 2, 3 ...~ num-1, num)의 약수개수를 하나하나 구함 :
-항상 짝이 되는 수가 존재함 ex: 8 [1,2,4,8], 1*8, 2*4
-예외처리: (ex: 25 [1,5,25] 1*25, 5*5) 하나의 수를 제곱했을때는 짝이 존재X
+dict 자료형을 사용해 key는 id list를 가지며 value는 해당 사용자가 신고한 사람의 list를 가지게 만든다.
 
-약수개수(cnt)가 limit를 초과하면 power값으로, 아니라면 약수개수값을 answer에 더함
+value 값을 탐색해 신고가 k번 이상 된 사용자를 모아 저장한다. 그 후 dict에서 그 사용자들을 신고한 사람을 찾아 배열에 ++1하는 방식으로 answer에 저장.
 
 ## etc
