@@ -1,6 +1,6 @@
 ## Info
 
-Programmers - 기사단원의 무기 https://school.programmers.co.kr/learn/courses/30/lessons/136798
+Programmers - 문자열 나누기 https://school.programmers.co.kr/learn/courses/30/lessons/140108
 
 ## How to solve
 
