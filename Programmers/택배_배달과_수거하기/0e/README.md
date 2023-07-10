@@ -1,18 +1,14 @@
 ## Info
-Programmers - 조이스틱 https://school.programmers.co.kr/learn/courses/30/lessons/42860
+Programmers - 택배 배달과 수거하기 https://school.programmers.co.kr/learn/courses/30/lessons/150369
 
 ## How to solve
-아스키코드를 이용해 상하이동 횟수 구함
-move의 default값은 len(name)-1
 
-보통 연속된 A가 존재할때 move의 최솟값이 결정됨
-2*i + name_cnt - next : 왼쪽방향으로 움직일때 move횟수
-2*(name_cnt - next)+i : 오른쪽방향으로 움직일때 move횟수
-![Alt text](image-1.png)
+먼곳부터 계산해야하기때문에 큰수에서 -1해주는 for문 사용
+해당 거리(i)에 있는 deli과 pick을 더해줌
 
-비교해서 제일 적은 move를 도출
+deli or pick이 
+양수일때 배달하거나 픽업에 나섬
+해당 위치로 이동 (answer += 거리) 한번가면 필수로 돌아와야함으로 *2
+cap을 빼줌 (굳이 그 거리만큼 안가도 오고가며 주울수있는걸판별하기위해)
 
 ## etc
-상하이동은 겁나쉬웟는데 move이동개수세기가 개빡쎗다
-파이썬에서 아스키코드 첨 다뤄봄
-ord랑 chr 기억해둬야지
