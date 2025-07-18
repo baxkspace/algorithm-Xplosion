@@ -1,5 +1,5 @@
 ## Info
-BOJ 2491 - 계단 오르기 https://www.acmicpc.net/problem/2491
+BOJ 2491 - 수열 https://www.acmicpc.net/problem/2491
 
 ## How to solve
 * 벡터 두 개 만들어서 하나는 수 입력, 하나는 수열 개수를 계산했다
