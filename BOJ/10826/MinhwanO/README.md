@@ -1,5 +1,5 @@
 ## Info
-BOJ 10826 - 트리의 부모찾기 https://www.acmicpc.net/problem/10826
+BOJ 10826 - 피보나치 수 4 https://www.acmicpc.net/problem/10826
 
 ## How to solve
 * DP 이용
